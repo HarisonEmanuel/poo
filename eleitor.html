@@ -3,14 +3,22 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>ifam</title>
+    <title>eleicoes</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
 </head>
 <body>
- <script>alert("parabens voce acaba de ganhar 10.000")
+    <script>
+        let dn=prompt("digite o ano em que nasceu");
+        let idade= 2023-dn;
+        if(idade >=18 && idade < 70)
+        alert("voto obrigatorio");
+    else if(idade<=16 || idade>70)
+        alert ("voto facultativo");
+else
+        alert("nao se vota")
 
- </script>
+    </script>
 </body>
 </html>
